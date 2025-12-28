@@ -1,0 +1,9 @@
+{
+	"name": "hari01factory",
+	"location": "westus2",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "09c8ac70-0d9e-4fcb-a772-b0743e66228b",
+		"tenantId": "27e1a82a-a5e3-4d1e-8d0c-949df2985c6f"
+	}
+}
