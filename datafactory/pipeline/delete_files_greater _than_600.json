@@ -15,9 +15,11 @@
 				},
 				"userProperties": [],
 				"typeProperties": {
-					"fieldList": [
-						"childItems"
-					],
+					"dataset": {
+						"referenceName": "DelimitedText7",
+						"type": "DatasetReference"
+					},
+					"fieldList": [],
 					"storeSettings": {
 						"type": "AzureBlobFSReadSettings",
 						"recursive": true,
@@ -60,10 +62,11 @@
 							},
 							"userProperties": [],
 							"typeProperties": {
-								"fieldList": [
-									"itemName",
-									"size"
-								],
+								"dataset": {
+									"referenceName": "DelimitedText8",
+									"type": "DatasetReference"
+								},
+								"fieldList": [],
 								"storeSettings": {
 									"type": "AzureBlobFSReadSettings",
 									"recursive": true,
@@ -105,6 +108,10 @@
 										},
 										"userProperties": [],
 										"typeProperties": {
+											"dataset": {
+												"referenceName": "Binary4",
+												"type": "DatasetReference"
+											},
 											"enableLogging": false,
 											"storeSettings": {
 												"type": "AzureBlobFSReadSettings",
