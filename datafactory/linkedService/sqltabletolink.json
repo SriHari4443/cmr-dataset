@@ -1,0 +1,13 @@
+{
+	"name": "sqltabletolink",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"description": "link to sql",
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"connectionString": "integrated security=False;encrypt=True;connection timeout=30;data source=hari01.database.windows.net;initial catalog=hari01;user id=hari01",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDdCNzlBRUM1LUEyNkItNERFMy1CQTYxLTU3RUYyMzlBOTEwRl9mZTRkOTY1MS1mYmU1LTRiYjAtYTQ4OC1jMGQ0YzllMjRmZDkiDQp9"
+		}
+	}
+}
